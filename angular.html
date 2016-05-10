@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title>Angular Demo</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <form class = "one">
+    	Monster: <input ng-model="monster" placeholder="Monster"></input> <br />
+    Place: <input ng-model="place" placeholder="Place"></input> <br />
+    Name: <input ng-model="name" placeholder="Name"></input> <br />
+    City: <input ng-model="city" placeholder="City"></input> <br />
+    Adjective: <input ng-model="adj" placeholder="Adjective"></input> <br />
+    Adverb: <input ng-model="ly" placeholder="Adverb"></input> <br />
+    Vehicle: <input ng-model="car" placeholder="Vehicle"></input> <br />
+    Noun: <input ng-model="noun" placeholder="Noun"></input> <br />
+   	Thing: <input ng-model="thing" placeholder="Thing"></input> <br />
+    Candy: <input ng-model="candy" placeholder="Candy"></input> <br />
+  </form>
+
+  <h3>When  {{ monster }} attacked {{ place }}</h3>
+  <p>{{ name }} was walking around {{ city }} </p>
+  <p> The {{ monster }} were {{ adj }}</p>
+  <p> {{ monster }} saw {{ name }} running away and </p>
+  <p>{{ ly }} turned around and destroyed a {{ car }}</p>
+  <p> {{ name }} ran but was not fast enough. He
+  		pulled a {{ noun }} out of his coat pocket.</p>
+  <p>This distracted {{ monster }} and made them explode</p>
+  <p>{{ monster }} had been destroyed</p>
+  <p> It exploded into {{ candy }} and {{ thing }}
+
+</body>
+</html>
